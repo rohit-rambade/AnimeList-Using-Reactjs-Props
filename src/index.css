@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1{
+    color: beige;
+    text-align: center;
+    background-color: red;
+    
+}
+
+.container, .cards{
+    
+    align-items: center;
+   
+    margin: 10px;
+    
+    
+}
+
+.cards{
+    display: inline-flex;
+    
+    background-color: black;
+    color: rgb(190, 36, 36);
+    box-shadow: 2px 2px 10px black;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+img{
+   width: 20%;
+}
+.cards h2{
+    margin: 20px;
+    width: 100px;
+   
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cards p{
+    
+    color: red;
+}
+.para{
+    margin: 20px;
+}
